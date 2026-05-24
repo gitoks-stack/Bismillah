@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const user = localStorage.getItem("username");
 
     if (user) {
-        document.getElementById("userInfo").innerText = "Halo, " + user;
+        document.getElementById("userInfo").innerText = "Haiiiii, " + user;
 
         document.getElementById("authArea").innerHTML = `
         <li class="nav-item" id="authArea">
