@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("authArea").innerHTML = `
         <li id="authArea">
             <a class="nav-link tm-nav-link" onclick="logout()">Logout</a>
-        </li
+        </li>
         `;
     }
 
